@@ -325,6 +325,9 @@ footer{
 
 
 @media screen and (max-width: 480px) {
+
+
+    /*  HOME    */
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
@@ -358,6 +361,47 @@ footer{
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+
+    /* PRODUTOS */
+
+    .produtos{
+        width: auto;
+        text-align: center;
+    }
+    
+    .produtos > li{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    /*   CONTATO   */
+
+    main > form{
+        text-align: center;
+    }
+
+    .input-padrao{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .checkbox{
+        margin: 20px 0;
+    }
+    
+    .enviar{
+        width: 60%;
+        font-size: 22px;
+    }
+    
+    table{
+        margin: 20px auto 40px;
+    }
+    
+    
+    
+    
+    
 }
 
 
@@ -368,8 +412,9 @@ footer{
 */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
 
+    /*  HOME    */
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
@@ -398,5 +443,37 @@ footer{
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
+    }
+
+    /* PRODUTOS */
+
+    .produtos{
+        width: auto;
+        text-align: center;
+    }
+    
+    .produtos li{
+        
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /*   CONTATO   */
+
+    main > form{
+        text-align: center;
+    }
+
+    .input-padrao{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .enviar{
+        width: 60%;
+    }
+    
+    table{
+        margin: 20px auto 40px;
     }
 }
