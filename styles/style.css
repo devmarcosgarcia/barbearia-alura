@@ -235,7 +235,8 @@ main{
 
 
 form{
-    margin: 40px 0;
+    margin: 40px 50px;
+
 }
 
 form label, form legend{
@@ -274,7 +275,8 @@ form label, form legend{
 }
 
 table{
-    margin: 20px 0 40px;
+    margin: 20px 50px;
+
 }
 
 thead{
@@ -305,7 +307,7 @@ td, th{
 
 footer{
     text-align: center;
-    background: url(bg.jpg);
+    background: url(../images/bg.jpg);
     padding: 40px 0;
 }
 
