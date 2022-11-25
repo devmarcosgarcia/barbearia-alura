@@ -315,6 +315,22 @@ footer{
     margin: 20px 0 0;
 }
 
+.creditos{
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.creditos a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.creditos a:hover{
+    font-weight: bold;
+}
+
 
 
 /*
@@ -331,19 +347,27 @@ footer{
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
+    
+    nav {
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-    nav li, nav ul {
-        margin: auto;
-        margin: 5px;
+    nav ul, nav li {
+        display: flex;
+        margin: 0;
+    }
+
+    nav a{
+        margin: 0 8px; 
     }
 
     h1 {
         text-align: center;
     }
 
-    nav {
-        position: static;
-    }
 
     .principal p{
         text-align: justify;
@@ -388,6 +412,10 @@ footer{
 
     form label, form legend {
         margin: 15px 0 15px;
+    }
+
+    .horarios{
+        margin-top: 10px;
     }
 
     
@@ -478,6 +506,11 @@ footer{
     form label, form legend {
         margin: 15px 0 15px;
     }
+
+    .horarios{
+        margin-top: 10px;
+    }
+
 
     
     .checkbox{
